@@ -1,0 +1,616 @@
+{
+ "date": "2026-10-05",
+ "generated_at": "2026-10-06T05:44:54.929422+00:00",
+ "previous_snapshot": null,
+ "repos": [
+  {
+   "full_name": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "stars": 97758,
+   "growth": {
+    "avg_since_creation": 449.2,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 4505,
+     "stars_30d": 18021
+    },
+    "method": "github_star_history",
+    "per_day": 643.6
+   },
+   "description": "A Node.js server and React dashboard for running a team of AI agents like a small company. You bring your own agents, give them goals and roles, and track their work, approvals, and spending in one place.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "pushed_at": "2026-10-06T05:45:00Z",
+   "category": "agents",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "stars": 86012,
+   "growth": {
+    "avg_since_creation": 423.5,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 5198,
+     "stars_30d": 24188
+    },
+    "method": "github_star_history",
+    "per_day": 742.6
+   },
+   "description": "A desktop workspace for running several coding agents (Codex, Claude Code, OpenCode and others) side by side, each in its own git worktree. You can compare their results, review diffs, and check on or steer agents from a phone app.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "pushed_at": "2026-10-06T05:44:34Z",
+   "category": "agents",
+   "hn": {
+    "title": "Show HN: Open Source 'Conductor + Ghostty'",
+    "points": 21,
+    "comments": 10,
+    "date": "2026-03-27",
+    "link": "https://news.ycombinator.com/item?id=47549197"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "code-yeongyu/oh-my-openagent",
+   "url": "https://github.com/code-yeongyu/oh-my-openagent",
+   "stars": 69835,
+   "growth": {
+    "avg_since_creation": 227.3,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 310,
+     "stars_30d": 1561
+    },
+    "method": "github_star_history",
+    "per_day": 44.3
+   },
+   "description": "OmO is a command-line agent that installs as a single `omo` binary and routes work across multiple AI models. It handles research, coding, and documents in one loop, with a built-in memory system and cheaper models used for the easy parts.",
+   "language": "TypeScript",
+   "license": "Other",
+   "pushed_at": "2026-10-06T05:42:19Z",
+   "category": "agents",
+   "hn": null,
+   "testimonials": [
+    "\"It made me cancel my Cursor subscription. Unbelievable things are happening in the open source community.\" - Arthur Guiot",
+    "\"If Claude Code does in 7 days what a human does in 3 months, OmO does it in 1 hour.\" - B, Quant Researcher"
+   ]
+  },
+  {
+   "full_name": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "stars": 211916,
+   "growth": {
+    "avg_since_creation": 404.9,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 1428,
+     "stars_30d": 7989
+    },
+    "method": "github_star_history",
+    "per_day": 204.0
+   },
+   "description": "An open-source AI coding agent that runs in your terminal, with a desktop app as well. It works with many model providers, so you can use Claude, OpenAI, Google or local models instead of being tied to one vendor.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "pushed_at": "2026-10-06T05:43:46Z",
+   "category": "coding",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "stars": 110039,
+   "growth": {
+    "avg_since_creation": 595.4,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 1993,
+     "stars_30d": 6799
+    },
+    "method": "github_star_history",
+    "per_day": 284.7
+   },
+   "description": "A skill and proxy for coding agents that makes them answer in short, stripped-down sentences and read less unneeded context. The README reports about a third fewer input tokens on Claude Code runs while keeping code output unchanged.",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-06T04:42:15Z",
+   "category": "coding",
+   "hn": {
+    "title": "Caveman: Why use many token when few token do trick",
+    "points": 904,
+    "comments": 366,
+    "date": "2026-04-05",
+    "link": "https://news.ycombinator.com/item?id=47647455"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "DeusData/codebase-memory-mcp",
+   "url": "https://github.com/DeusData/codebase-memory-mcp",
+   "stars": 45847,
+   "growth": {
+    "avg_since_creation": 205.3,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 495,
+     "stars_30d": 3673
+    },
+    "method": "github_star_history",
+    "per_day": 70.7
+   },
+   "description": "An MCP server that indexes a codebase into a local knowledge graph so coding agents can look up functions, call paths and dependencies instead of grepping files. It is written in C and indexes a typical repo in well under a second.",
+   "language": "C",
+   "license": "MIT",
+   "pushed_at": "2026-10-05T21:55:34Z",
+   "category": "mcp",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "stars": 85873,
+   "growth": {
+    "avg_since_creation": 118.9,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 1594,
+     "stars_30d": 7544
+    },
+    "method": "github_star_history",
+    "per_day": 227.7
+   },
+   "description": "A Python web scraping library that can fetch pages, get past common anti-bot checks, and re-find page elements after a site's layout changes. It also includes a spider framework for larger crawls and an MCP server so AI agents can scrape.",
+   "language": "Python",
+   "license": "BSD-3-Clause",
+   "pushed_at": "2026-10-04T19:47:53Z",
+   "category": "mcp",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "stars": 206737,
+   "growth": {
+    "avg_since_creation": 77.6,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 653,
+     "stars_30d": 3863
+    },
+    "method": "github_star_history",
+    "per_day": 93.3
+   },
+   "description": "A workflow automation platform, similar to Zapier, that you can self-host. You build automations and AI agents on a visual canvas, drop into code when needed, and connect to more than 1,500 apps.",
+   "language": "TypeScript",
+   "license": "Other",
+   "pushed_at": "2026-10-06T05:44:00Z",
+   "category": "workflow",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "conductor-oss/conductor",
+   "url": "https://github.com/conductor-oss/conductor",
+   "stars": 32269,
+   "growth": {
+    "avg_since_creation": 31.2,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 57,
+     "stars_30d": 209
+    },
+    "method": "github_star_history",
+    "per_day": 8.1
+   },
+   "description": "An open-source engine, originally from Netflix, for running long-lived workflows across services and AI agents. It keeps track of every step, retry, branch and approval so a workflow can resume after failures.",
+   "language": "Java",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-05T21:08:14Z",
+   "category": "workflow",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "pipecat-ai/pipecat",
+   "url": "https://github.com/pipecat-ai/pipecat",
+   "stars": 16202,
+   "growth": {
+    "avg_since_creation": 16.0,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 268,
+     "stars_30d": 971
+    },
+    "method": "github_star_history",
+    "per_day": 38.3
+   },
+   "description": "A Python framework for building real-time voice agents that listen, think with an LLM, and talk back. It plugs into common speech, LLM and phone or WebRTC providers, and can coordinate several specialist agents in one call.",
+   "language": "Python",
+   "license": "BSD-2-Clause",
+   "pushed_at": "2026-10-06T02:38:31Z",
+   "category": "voice",
+   "hn": {
+    "title": "Show HN: An open source framework for voice assistants",
+    "points": 346,
+    "comments": 39,
+    "date": "2024-05-13",
+    "link": "https://news.ycombinator.com/item?id=40345696"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "huggingface/speech-to-speech",
+   "url": "https://github.com/huggingface/speech-to-speech",
+   "stars": 13375,
+   "growth": {
+    "avg_since_creation": 16.9,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 47,
+     "stars_30d": 373
+    },
+    "method": "github_star_history",
+    "per_day": 6.7
+   },
+   "description": "Hugging Face's modular voice-agent pipeline: voice activity detection, speech-to-text, an LLM, and text-to-speech, each swappable. It speaks the OpenAI Realtime API protocol over WebSocket and WebRTC, so it can stand in for that API with open models.",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-05T19:51:03Z",
+   "category": "voice",
+   "hn": {
+    "title": "Hugging Face tackles speech-to-speech",
+    "points": 27,
+    "comments": 5,
+    "date": "2024-09-03",
+    "link": "https://news.ycombinator.com/item?id=41432525"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "livekit/livekit",
+   "url": "https://github.com/livekit/livekit",
+   "stars": 21298,
+   "growth": {
+    "avg_since_creation": 9.7,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 141,
+     "stars_30d": 591
+    },
+    "method": "github_star_history",
+    "per_day": 20.1
+   },
+   "description": "The LiveKit server, an open-source WebRTC media server that moves live audio, video and data between people and AI models. It is the base layer many voice-agent products use for real-time calls.",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-06T05:11:03Z",
+   "category": "voice",
+   "hn": {
+    "title": "LiveKit \u2013 Open source, high performance WebRTC infrastructure",
+    "points": 160,
+    "comments": 25,
+    "date": "2022-05-20",
+    "link": "https://news.ycombinator.com/item?id=31447046"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "stars": 154034,
+   "growth": {
+    "avg_since_creation": 140.6,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 653,
+     "stars_30d": 3320
+    },
+    "method": "github_star_history",
+    "per_day": 93.3
+   },
+   "description": "A self-hosted, ChatGPT-style web interface for local and cloud AI models (Ollama and OpenAI-compatible APIs). It includes document chat (RAG), user accounts and permissions, and can run fully offline.",
+   "language": "Python",
+   "license": "Other",
+   "pushed_at": "2026-10-05T19:57:08Z",
+   "category": "chatbot",
+   "hn": {
+    "title": "Open WebUI: ChatGPT-Style WebUI for Ollama",
+    "points": 29,
+    "comments": 3,
+    "date": "2024-02-18",
+    "link": "https://news.ycombinator.com/item?id=39415771"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "virgiliojr94/book-to-skill",
+   "url": "https://github.com/virgiliojr94/book-to-skill",
+   "stars": 33873,
+   "growth": {
+    "avg_since_creation": 214.2,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 959,
+     "stars_30d": 5284
+    },
+    "method": "github_star_history",
+    "per_day": 137.0
+   },
+   "description": "A tool that turns a technical book, PDF or folder of documents into a structured skill file that coding agents such as Claude Code or Copilot CLI load on demand. The agent can then answer from the actual chapters instead of guessing.",
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-10-05T22:51:12Z",
+   "category": "chatbot",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "polarsource/polar",
+   "url": "https://github.com/polarsource/polar",
+   "stars": 10327,
+   "growth": {
+    "avg_since_creation": 7.7,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 47,
+     "stars_30d": 118
+    },
+    "method": "github_star_history",
+    "per_day": 6.7
+   },
+   "description": "An open-source billing platform that acts as merchant of record, handling checkout, subscriptions, usage-based billing and sales tax. It is aimed at software and AI products that charge per seat, credit, token or agent run.",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-06T05:40:55Z",
+   "category": "saas",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "ixartz/Next-js-Boilerplate",
+   "url": "https://github.com/ixartz/Next-js-Boilerplate",
+   "stars": 13078,
+   "growth": {
+    "avg_since_creation": 5.8,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 6,
+     "stars_30d": 37
+    },
+    "method": "github_star_history",
+    "per_day": 0.9
+   },
+   "description": "A Next.js starter project with TypeScript, Tailwind CSS, authentication, a database layer, testing and CI already wired up. It saves the setup time when starting a new web app.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "pushed_at": "2026-10-01T12:40:20Z",
+   "category": "saas",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "every-app/open-seo",
+   "url": "https://github.com/every-app/open-seo",
+   "stars": 22439,
+   "growth": {
+    "avg_since_creation": 101.8,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 844,
+     "stars_30d": 5223
+    },
+    "method": "github_star_history",
+    "per_day": 120.6
+   },
+   "description": "A self-hostable SEO tool positioned as a cheaper alternative to Semrush and Ahrefs. It covers keyword research, rank tracking and site audits on a pay-as-you-go basis.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "pushed_at": "2026-10-05T02:42:45Z",
+   "category": "seo",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "AgriciDaniel/claude-seo",
+   "url": "https://github.com/AgriciDaniel/claude-seo",
+   "stars": 18331,
+   "growth": {
+    "avg_since_creation": 76.1,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 446,
+     "stars_30d": 1996
+    },
+    "method": "github_star_history",
+    "per_day": 63.7
+   },
+   "description": "An SEO analysis plugin for Claude Code that runs a set of sub-skills and agents across technical SEO, content quality, Schema.org markup, AI search visibility and local SEO. It produces audit findings and recommended fixes for a site.",
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-10-04T23:41:12Z",
+   "category": "seo",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "twentyhq/twenty",
+   "url": "https://github.com/twentyhq/twenty",
+   "stars": 57948,
+   "growth": {
+    "avg_since_creation": 41.3,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 297,
+     "stars_30d": 1764
+    },
+    "method": "github_star_history",
+    "per_day": 42.4
+   },
+   "description": "An open-source CRM, an alternative to Salesforce, that teams can self-host and customize with their own objects, fields and workflows. It has a modern interface and an API for building on top of it.",
+   "language": "TypeScript",
+   "license": "Other",
+   "pushed_at": "2026-10-06T05:35:46Z",
+   "category": "crm",
+   "hn": {
+    "title": "Twenty: A Modern open-source CRM",
+    "points": 164,
+    "comments": 67,
+    "date": "2023-10-07",
+    "link": "https://news.ycombinator.com/item?id=37805520"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "krayin/laravel-crm",
+   "url": "https://github.com/krayin/laravel-crm",
+   "stars": 23970,
+   "growth": {
+    "avg_since_creation": 12.3,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 23,
+     "stars_30d": 168
+    },
+    "method": "github_star_history",
+    "per_day": 3.3
+   },
+   "description": "An open-source CRM built with Laravel and Vue.js for managing leads, contacts, deals, quotes and email across the customer lifecycle. It targets small and mid-size businesses and is self-hosted.",
+   "language": "PHP",
+   "license": "MIT",
+   "pushed_at": "2026-10-02T19:05:45Z",
+   "category": "crm",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "stars": 43908,
+   "growth": {
+    "avg_since_creation": 311.1,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 1584,
+     "stars_30d": 22095
+    },
+    "method": "github_star_history",
+    "per_day": 226.3
+   },
+   "description": "An AI code review command-line tool from Alibaba that reads git diffs and writes line-by-line review comments using any LLM endpoint you configure. It can also scan whole files to audit an unfamiliar codebase.",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-05T06:43:52Z",
+   "category": "rising",
+   "hn": {
+    "title": "Open Code Review \u2013 An AI-powered code review CLI tool",
+    "points": 284,
+    "comments": 73,
+    "date": "2026-06-05",
+    "link": "https://news.ycombinator.com/item?id=48406358"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "hypit-ai/hypit",
+   "url": "https://github.com/hypit-ai/hypit",
+   "stars": 19523,
+   "growth": {
+    "avg_since_creation": 285.2,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 2266,
+     "stars_30d": 19501
+    },
+    "method": "github_star_history",
+    "per_day": 323.7
+   },
+   "description": "A skill that gives coding agents like Claude Code and Codex a way to produce videos. You drop in an existing video and the agent rebuilds it as an editable workflow of footage, captions, B-roll and effects, or you describe a new video and it writes the workflow from scratch.",
+   "language": "TypeScript",
+   "license": "Other",
+   "pushed_at": "2026-10-04T13:43:32Z",
+   "category": "rising",
+   "hn": null,
+   "testimonials": []
+  },
+  {
+   "full_name": "nexu-io/open-design",
+   "url": "https://github.com/nexu-io/open-design",
+   "stars": 99599,
+   "growth": {
+    "avg_since_creation": 618.4,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 1195,
+     "stars_30d": 5712
+    },
+    "method": "github_star_history",
+    "per_day": 170.7
+   },
+   "description": "A design workspace where your coding agent turns a brief into prototypes, slides and images that follow your design system. It is an open-source alternative to Claude Design and keeps the work in one shareable project.",
+   "language": "TypeScript",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-06T01:30:05Z",
+   "category": "coding",
+   "hn": {
+    "title": "Open Design: Use Your Coding Agent as a Design Engine",
+    "points": 232,
+    "comments": 92,
+    "date": "2026-05-02",
+    "link": "https://news.ycombinator.com/item?id=47985750"
+   },
+   "testimonials": []
+  },
+  {
+   "full_name": "sansan0/TrendRadar",
+   "url": "https://github.com/sansan0/TrendRadar",
+   "stars": 62688,
+   "growth": {
+    "avg_since_creation": 119.2,
+    "recent": {
+     "status": "ok",
+     "source": "github_star_history",
+     "stars_7d": 145,
+     "stars_30d": 804
+    },
+    "method": "github_star_history",
+    "per_day": 20.7
+   },
+   "description": "A self-hosted news and trend monitor that collects trending topics from many platforms and RSS feeds, filters them by your keywords, and sends digests to chat apps or email. The documentation is mainly in Chinese.",
+   "language": "Python",
+   "license": "GPL-3.0",
+   "pushed_at": "2026-09-13T06:38:25Z",
+   "category": "mcp",
+   "hn": null,
+   "testimonials": []
+  }
+ ]
+}
